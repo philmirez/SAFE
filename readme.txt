@@ -1,13 +1,12 @@
-SAFE aka Selenium Automated Framework for Everyone
-Description:
-Automated Framework that utilizes Selenium WebDriver, Selenide, TestNG, Allure Reports, and Maven. 
-This repo provides a quick and easy way of getting an Automated Framework up and running.
+# SAFE 
+### Selenium Automated Framework for Everyone
 
-************************************************************
-*
-* Initial Setup
-*
-************************************************************
+> Automated Framework that utilizes Selenium WebDriver, Selenide, TestNG, Allure Reports, and Maven. 
+> This repo provides a quick and easy way of getting an Automated Framework up and running.
+
+***
+## Initial Setup
+***
 After downloading and setting up Maven, clone the SAFE repo from gitHub.
 Once that is finished downloading, extract it to the desired file location.
 Navigate into the folder and change the file paths in the following locations to the file path of your SAFE folder
@@ -27,11 +26,9 @@ Create the following xml files within the SAFE root folder.
 	-CurrentTestPlan\testng.xml
 	-tcbucket.xml
 Note: Right click on project -> Hover over Maven -> Click Update Project
-************************************************************
-*
-* Task Scheduler Setup
-*
-************************************************************		
+***
+## Task Scheduler Setup
+***		
  -Setting Up a Task
 	1. Open the Task Scheduler
 	2. Select Create Task from the Actions bar on the right side of the window
@@ -52,12 +49,10 @@ Note: Right click on project -> Hover over Maven -> Click Update Project
 	1. Click on the arrow next to Task Scheduler Library
 	2. Scroll through top menu and the test should be listed.
 	
-************************************************************
-*
-* Updating
-*
-************************************************************
-To update, download the latest patch from oneHub.
+***
+## Updating
+***
+To update, clone the latest patch from gitHub.
 Copy and replace the following folders: /SAFE/src
 					/SAFE/TestPlans
 Navigate into the folder and change the file paths in the following locations to the file path of your Selenium folder
@@ -67,11 +62,9 @@ Navigate into the folder and change the file paths in the following locations to
 
 The Automated tests should now be updated.
 
-************************************************************
-*
-* Running tests from server
-*
-************************************************************
+***
+## Running tests from server
+***
 To run the test from the server enter these commands into a command prompt that is in administrator mode: 
 	1. <drive>:
 	2. cd <drive>:\SAFE\Selenium\
