@@ -34,9 +34,10 @@ Create the following xml files within the SAFE root folder.
 ```
 Note: Right click on project -> Hover over Maven -> Click Update Project
 ***
-## Task Scheduler Setup
+## Task Scheduler Setup (Windows Only)
 ***
- -Setting Up a Task
+###### Setting Up a Task
+```
 	1. Open the Task Scheduler
 	2. Select Create Task from the Actions bar on the right side of the window
 	3. Enter a Name and Description for the task
@@ -52,10 +53,12 @@ Note: Right click on project -> Hover over Maven -> Click Update Project
 	13. Enter "<Test_Plan_Name>.xml" into the Add arguments text box.
 	14. Click OK
 	15. Click OK
- -Verifying the Task was Created
+```
+###### Verifying the Task was Created
+```
 	1. Click on the arrow next to Task Scheduler Library
 	2. Scroll through top menu and the test should be listed.
-	
+```	
 ***
 ## Updating
 ***
@@ -77,9 +80,13 @@ The Automated tests should now be updated.
 ## Running tests from server
 ***
 To run the test from the server enter these commands into a command prompt that is in administrator mode: 
+```
 	1. <drive>:
 	2. cd <drive>:\SAFE\Selenium\
 	3. runTestPlan.bat SmokeTests.xml
+```
 After tests are finished, verify the Test Plan completed successfully by following these steps:
- 	1. Open the newest folder in <drive>:\SAFE\logs\archivedLogs
+``` 
+	1. Open the newest folder in <drive>:\SAFE\logs\archivedLogs
 	2. Open /allure-reports/index.html
+```
