@@ -1,5 +1,4 @@
-:-------------:
-![Project][logo]
+<div style="width: 100%; margin: 0 auto">![Project][logo]</div>
 -------------
 [logo]: https://github.com/ramirezp6856/SAFE/blob/master/img/icon.ico
 # SAFE 
