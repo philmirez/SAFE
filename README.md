@@ -8,8 +8,11 @@
 ## Initial Setup
 ***
 After downloading and setting up Maven, clone the SAFE repo from gitHub.
+
 Once that is finished downloading, extract it to the desired file location.
+
 Navigate into the folder and change the file paths in the following locations to the file path of your SAFE folder
+```
 	-\SAFE\pom.xml
 		Line 84: <suiteXmlFile><Drive:>/SAFE/CurrentTestPlan/testng.xml</suiteXmlFile>
 	-\SAFE\src\automation\utilities\Driver.java
@@ -21,14 +24,18 @@ Navigate into the folder and change the file paths in the following locations to
 		Change cd C:\SAFE to <Drive:>\SAFE
 	-\SAFE\Scripts\forWindows\BatchScripts\runTestPlan.bat
 		Add <Drive:> to the top of the file
+```
 Verify JDK is configured correctly as an environment variable, run as configuration for eclipse, and build path for eclipse.
+
 Create the following xml files within the SAFE root folder.
+```
 	-CurrentTestPlan\testng.xml
 	-tcbucket.xml
+```
 Note: Right click on project -> Hover over Maven -> Click Update Project
 ***
 ## Task Scheduler Setup
-***		
+***
  -Setting Up a Task
 	1. Open the Task Scheduler
 	2. Select Create Task from the Actions bar on the right side of the window
@@ -53,13 +60,17 @@ Note: Right click on project -> Hover over Maven -> Click Update Project
 ## Updating
 ***
 To update, clone the latest patch from gitHub.
-Copy and replace the following folders: /SAFE/src
-					/SAFE/TestPlans
+Copy and replace the following folders:
+```	
+	/SAFE/src
+	/SAFE/TestPlans
+```
 Navigate into the folder and change the file paths in the following locations to the file path of your Selenium folder
+```
 	-\SAFE\src\automation\utilities\Driver.java
 		Line 72: System.setProperty("webdriver.chrome.driver", "<Drive:>\\SAFE\\3rdParty\\chromedriver-win32-2.21\\chromedriver.exe");
 		Line 77: System.setProperty("webdriver.ie.driver", "<Drive:>\\SAFE\\3rdParty\\IEDriverServer_win32_2.52.0\\IEDriverServer.exe");
-
+```
 The Automated tests should now be updated.
 
 ***
