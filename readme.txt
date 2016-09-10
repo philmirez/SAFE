@@ -1,6 +1,7 @@
 SAFE aka Selenium Automated Framework for Everyone
 Description:
-Automated Framework that utilizes Selenium WebDriver, Selenide, TestNG, Allure Reports, and Maven. This repo provides a quick and easy way of getting an Automated Framework up and running.
+Automated Framework that utilizes Selenium WebDriver, Selenide, TestNG, Allure Reports, and Maven. 
+This repo provides a quick and easy way of getting an Automated Framework up and running.
 
 ************************************************************
 *
