@@ -30,7 +30,7 @@ Verify JDK is configured correctly as an environment variable, run as configurat
 Create the following xml files within the SAFE root folder.
 ```
 	-CurrentTestPlan\testng.xml
-	-tcbucket.xml
+	-testcasebucket.xml
 ```
 Note: Right click on project -> Hover over Maven -> Click Update Project
 ***
@@ -77,7 +77,7 @@ Navigate into the folder and change the file paths in the following locations to
 The Automated tests should now be updated.
 
 ***
-## Running tests from server
+## Running tests from cmd (Windows Only)
 ***
 To run the test from the server enter these commands into a command prompt that is in administrator mode: 
 ```
