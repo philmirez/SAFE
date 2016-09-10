@@ -1,4 +1,6 @@
+:-------------:
 ![Project][logo]
+-------------
 [logo]: https://github.com/ramirezp6856/SAFE/blob/master/img/icon.ico
 # SAFE 
 ### Selenium Automated Framework for Everyone
