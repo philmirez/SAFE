@@ -1,0 +1,14 @@
+<suite name="Test Cases" verbose="1" >
+  <test name="smoke test">
+   <parameter name="driverType" value="chrome"/>
+   <parameter name="baseAddress" value=""/>
+   <parameter name="username" value=""/>
+   <parameter name="password" value=""/>    
+   <classes>
+     <class name="" />
+     <class name="" />
+
+   
+   </classes>
+  </test>
+</suite>
