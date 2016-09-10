@@ -1,4 +1,4 @@
-# SAFE 
+# SAFE [logo]: https://pixabay.com/static/uploads/photo/2014/12/21/23/37/science-575706_960_720.png
 ### Selenium Automated Framework for Everyone
 
 > Automated Framework that utilizes Selenium WebDriver, Selenide, TestNG, Allure Reports, and Maven. 
