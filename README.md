@@ -22,11 +22,11 @@ Navigate into the folder and change the file paths in the following locations to
 	-\SAFE\src\automation\utilities\Driver.java
 		Line 72: System.setProperty("webdriver.chrome.driver", "<Drive:>\\SAFE\\3rdParty\\chromedriver-win32-2.21\\chromedriver.exe");
 		Line 77: System.setProperty("webdriver.ie.driver", "<Drive:>\\SAFE\\3rdParty\\IEDriverServer_win32_2.52.0\\IEDriverServer.exe");
-	-\SAFE\Scripts\forWindows\BatchScripts\runTestPlan.bat
+	-\SAFE\Scripts\forWindows\BatchScripts\runTestPlan.bat (Windows users only! Sorry Mac users...)
 		Find and Replace all instances of C: with <Drive:>
-	-\SAFE\Scripts\forWindows\BatchScripts\Selenium.bat (Windows users only! Sorry Mac users...)
+	-\SAFE\Scripts\forWindows\BatchScripts\SAFE.bat (Windows users only! Sorry Mac users...)
 		Change cd C:\SAFE to <Drive:>\SAFE
-	-\SAFE\Scripts\forWindows\BatchScripts\runTestPlan.bat
+	-\SAFE\Scripts\forWindows\BatchScripts\runTestPlan.bat (Windows users only! Sorry Mac users...)
 		Add <Drive:> to the top of the file
 ```
 Verify JDK is configured correctly as an environment variable, run as configuration for eclipse, and build path for eclipse.
