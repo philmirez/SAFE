@@ -82,7 +82,7 @@ The Automated tests should now be updated.
 To run the test from the server enter these commands into a command prompt that is in administrator mode: 
 ```
 	1. <drive>:
-	2. cd <drive>:\SAFE\Selenium\
+	2. cd <drive>:\SAFE\Scripts\forWindows\BatchScripts
 	3. runTestPlan.bat SmokeTests.xml
 ```
 After tests are finished, verify the Test Plan completed successfully by following these steps:
