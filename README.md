@@ -1,4 +1,4 @@
-![Project][logo]
+![Project Details][logo]
 -------------
 [logo]: https://github.com/ramirezp6856/SAFE/blob/master/img/icon.ico
 # SAFE 
@@ -6,6 +6,7 @@
 
 > Automated Framework that utilizes Selenium WebDriver, Selenide, TestNG, Allure Reports, and Maven. 
 > This repo provides a quick and easy way of getting an Automated Framework up and running.
+> This project requires maven, eclipse, and the TestNG extension for eclipse.
 
 ***
 ## Initial Setup
