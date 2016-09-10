@@ -1,9 +1,12 @@
+SAFE aka Selenium Automated Framework for Everyone
+Description:
+Utilizes 
 ************************************************************
 *
 * Initial Setup
 *
 ************************************************************
-After downloading and setting up Maven, download the Selenium folder from oneHub.
+After downloading and setting up Maven, clone the SAFE repo from gitHub.
 Once that is finished downloading, extract it to the desired file location.
 Navigate into the folder and change the file paths in the following locations to the file path of your Selenium folder
 	-\SAFE\pom.xml
