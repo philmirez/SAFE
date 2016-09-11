@@ -32,7 +32,7 @@ public class CsvReader {
     	this.csvFile = fileName;
     }
 
-    public Boolean ReadCSV(List<String> UserLanguages)
+    public boolean ReadCSV(List<String> UserLanguages)
     {
     try {
     	
