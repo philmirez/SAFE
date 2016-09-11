@@ -98,13 +98,17 @@ After tests are finished, verify the Test Plan completed successfully by followi
 :worried:
 ## Eclipse Kepler for Mac Errors:
 > 1. ERROR: -Dmaven.multiModuleProjectDirectory system propery is not set
-> In Eclipse you need to go like this.
+>     In Eclipse you need to go like this.
 
-> Window-> Preference -> Java -> Installed JREs -> Edit
-> In the edit Default VM arguments you need to put
+>     Window-> Preference -> Java -> Installed JREs -> Edit
+>     In the edit Default VM arguments you need to put
 
-> If you already set the maven home.
+>     If you already set the maven home.
 
-> -Dmaven.multiModuleProjectDirectory=$M2_HOME
-> Note: Do this for Run Configurations as well.
+>     -Dmaven.multiModuleProjectDirectory=$M2_HOME
+
+>     Note: Do this for Run Configurations as well.
+
+> 2. ERROR: Update for Java 8
+>    https://wiki.eclipse.org/JDT/Eclipse_Java_8_Support_For_Kepler
 
