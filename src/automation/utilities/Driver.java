@@ -83,6 +83,7 @@ public class Driver
 		{
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("--disable-extensions");
+			System.setProperty("webdriver.chrome.driver", "3rdParty\\chromedriver-win32-2.21\\chromedriver.exe");
 			Instance = new ChromeDriver(options);
 			WebDriverRunner.setWebDriver(Instance);
 			
@@ -90,7 +91,7 @@ public class Driver
 		// TODO ie.exe only executes on Windows! Well, of course...
 		else if(driverType.equals("ie"))
 		{
-			System.setProperty("webdriver.ie.driver", "..\\3rdParty\\IEDriverServer_win32_2.52.0\\IEDriverServer.exe");
+			System.setProperty("webdriver.ie.driver", "3rdParty\\IEDriverServer_win32_2.52.0\\IEDriverServer.exe");
 			Instance = new InternetExplorerDriver();
 			WebDriverRunner.setWebDriver(Instance);
 
