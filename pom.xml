@@ -85,7 +85,7 @@
         <configuration>
      		<!-- Suite testng xml file to consider for test execution -->
           <suiteXmlFiles>
-            <suiteXmlFile>C:/SourceCode/RH_Selenium/CurrentTestPlan/testng.xml</suiteXmlFile>
+            <suiteXmlFile>C:/SAFE/CurrentTestPlan/testng.xml</suiteXmlFile>
           </suiteXmlFiles>
           <testFailureIgnore>true</testFailureIgnore>
           <argLine>
