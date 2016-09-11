@@ -76,18 +76,20 @@ public class Driver
 			WebDriverRunner.setWebDriver(Instance);
 
 		}
+		// TODO chromedriver.exe only executes on Windows! Need to extend for Mac
 		else if(driverType.equals("chrome"))
 		{
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("--disable-extensions");
-			System.setProperty("webdriver.chrome.driver", "C:\\SourceCode\\RH_Selenium\\3rdParty\\chromedriver-win32-2.21\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "..\\3rdParty\\chromedriver-win32-2.21\\chromedriver.exe");
 			Instance = new ChromeDriver(options);
 			WebDriverRunner.setWebDriver(Instance);
 			
 		}
+		// TODO ie.exe only executes on Windows! Well, of course...
 		else if(driverType.equals("ie"))
 		{
-			System.setProperty("webdriver.ie.driver", "C:\\SourceCode\\RH_Selenium\\3rdParty\\IEDriverServer_win32_2.52.0\\IEDriverServer.exe");
+			System.setProperty("webdriver.ie.driver", "..\\3rdParty\\IEDriverServer_win32_2.52.0\\IEDriverServer.exe");
 			Instance = new InternetExplorerDriver();
 			WebDriverRunner.setWebDriver(Instance);
 
