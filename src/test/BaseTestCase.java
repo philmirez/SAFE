@@ -1,4 +1,4 @@
-package codeSnippets;
+package test;
 
 import org.testng.ITestContext;
 import org.testng.annotations.AfterTest;

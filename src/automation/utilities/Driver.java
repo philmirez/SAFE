@@ -10,8 +10,8 @@ package automation.utilities;
 //import org.openqa.selenium.By;
 import org.openqa.selenium.Alert;
 
-
 import java.util.GregorianCalendar;
+import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 import org.joda.time.DateTime;
@@ -21,6 +21,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.safari.SafariDriver;
 
 import com.codeborne.selenide.WebDriverRunner;
 
@@ -69,6 +70,7 @@ public class Driver
 			profile.setPreference("services.sync.prefs.sync.browser.download.manager.showWhenStarting", false);
 			profile.setPreference("pdfjs.disabled", true);
 			 * */
+	
 			FirefoxProfile profile = new FirefoxProfile();
 			
 		
@@ -81,7 +83,6 @@ public class Driver
 		{
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("--disable-extensions");
-			System.setProperty("webdriver.chrome.driver", "..\\3rdParty\\chromedriver-win32-2.21\\chromedriver.exe");
 			Instance = new ChromeDriver(options);
 			WebDriverRunner.setWebDriver(Instance);
 			
@@ -91,6 +92,12 @@ public class Driver
 		{
 			System.setProperty("webdriver.ie.driver", "..\\3rdParty\\IEDriverServer_win32_2.52.0\\IEDriverServer.exe");
 			Instance = new InternetExplorerDriver();
+			WebDriverRunner.setWebDriver(Instance);
+
+		}
+		else if(driverType.equals("safari"))
+		{
+			Instance = new SafariDriver();
 			WebDriverRunner.setWebDriver(Instance);
 
 		}
@@ -158,25 +165,25 @@ public class Driver
 			e.printStackTrace();
 		}
 	}// Wait method
-	
+	/*
 	@FunctionalInterface
 	public interface Action {
 		void apply();
 	
 	}
-	
+	*/
 	/**
 	 * <code>NoWait</code> turns off the timeout until the action completes.
 	 * Used mainly for when a page is loading.
 	 * 
 	 * @param action	Action that needs to have the timeout turned off.
 	 */
-	public static void NoWait(Action action)
+	/*public static void NoWait(Action action)
 	{
 		TurnOffWait();
 		action.apply();
 		TurnOnWait();
-	}
+	}*/
 	
 	/**
 	 * Sets the Instance's timeout to 0 seconds.
