@@ -81,7 +81,7 @@ Navigate into the folder and change the file paths in the following locations to
 The Automated tests should now be updated.
 
 ***
-## Running tests from cmd (Windows Only)
+## Running tests from cmd via batch scripts (Windows Only)
 ***
 To run the test from the server enter these commands into a command prompt that is in administrator mode: 
 ```
