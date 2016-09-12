@@ -64,7 +64,7 @@ Note: Right click on project -> Hover over Maven -> Click Update Project
 	2. Scroll through top menu and the test should be listed.
 ```	
 ***
-## Updating
+## Updating (If you can't sync a directory with github.)
 ***
 To update, clone the latest patch from gitHub.
 Copy and replace the following folders:
